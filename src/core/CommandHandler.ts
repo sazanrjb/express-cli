@@ -21,7 +21,7 @@ export class CommandHandler {
         commandsList.push({
           signature: index,
           description: command.description
-        })
+        });
       }
 
       console.table(commandsList);
