@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "ts-node src/app.ts"
+    "cli": "ts-node src/app.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,10 @@
     "tslib": "^2.5.0",
     "typescript": "^4.9.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pg": "^8.9.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.11"
+  }
 }
