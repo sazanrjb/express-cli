@@ -1,6 +1,6 @@
-## Express-CLI
+## Node-CLI
 
-Express-CLI is a CLI based application for expressjs apps. It is a standalone CLI application useful to run commands  in local or server. 
+Node-CLI is a CLI based application for NodeJS apps. It is a standalone CLI application useful to run commands  in local or server. 
 
 It comes with TypeORM and has capability to easily connect with the postgreSQL database.
 
