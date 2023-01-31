@@ -33,7 +33,7 @@ export class DummyCommand implements CommandInterface {
 ### Execute command
 A command can be executed using the following command:
 ```
-npm run cli <commandKeyName>
+npm run cli <commandSignature>
 
 Example:
 npm run cli dummyCommand
@@ -54,4 +54,4 @@ Here are the list of commands:
 
 ```
 
-Suggestions and PRs are welcomed!
+Suggestion and PRs are welcomed!
